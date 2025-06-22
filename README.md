@@ -1,38 +1,26 @@
-# sv
+# SMF4
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+このプロジェクトは、火炉さんが製作した  
+[マリオ3風の改造スーパーマリオフラッシュ2](https://wikiwiki.jp/tl3o68x/スーパーマリオフラッシュ3) を  
+TypeScript で書き直したものです。
 
-## Creating a project
+従来の SMF1〜3 には「本編」と「エディット」モードが存在しましたが、  
+SMF4 では本編をオミットし、エディット機能に特化しています。
 
-If you're seeing this, you've probably already done this step. Congrats!
+## SMF4 の特徴
 
-```bash
-# create a new project in the current directory
-npx sv create
+SMF3 との主な違いは以下の通りです：
 
-# create a new project in my-app
-npx sv create my-app
-```
+- 本編モードの省略
+- 強制スクロールなど、複雑な一部機能の一時的なオミット
+- 自由度の強化  
+  - カスタム BGM 機能の強化  
+    - YouTube  
+    - ニコニコ動画  
+    - SoundCloud  
+  - 新機能：カスタム画像の読み込み対応  
+    - プレイアブルキャラクター  
+    - 敵キャラクター
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+## ライセンス
+このプロジェクトは [MIT License](LICENSE) のもとで公開されています。
